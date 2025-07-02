@@ -1,14 +1,13 @@
 body {
     background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
-    font-family: "Roboto", sans-serif;
-  }
-  
+    font-family: "Open Sans", sans-serif;
+}
   a {
     color: #885df1;
   }
   
   .weather-app {
-    background: white;
+    background: #bfe9db;
     max-width: 600px;
     margin: 45px auto;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -31,7 +30,7 @@ body {
   }
   
   .search-form-button {
-    background: #885df1;
+    background: radial-gradient(circle at 10% 20%, rgb(15, 213, 172) 0%, rgb(34, 182, 198) 100.2%);
     padding: 15px 30px;
     border: none;
     font-size: 16px;
