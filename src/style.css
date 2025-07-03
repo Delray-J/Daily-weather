@@ -1,5 +1,6 @@
 body {
-    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/169/543/original/pexels-brett-sayles-912364.jpg?1751546228);
+    background-size: cover;
     font-family: "Open Sans", sans-serif;
 }
   a {
@@ -7,16 +8,16 @@ body {
   }
   
   .weather-app {
-    background: #bfe9db;
-    max-width: 600px;
+    background: #d5def5;
+    max-width: 700px;
     margin: 45px auto;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-    border-radius: 16px;
+    border-radius: 17px;
     padding: 30px;
   }
   
   header {
-    border-bottom: 1px solid #f9f7fe;
+    border-bottom: 1px solid #0092ca;
     padding: 0 0 30px 0;
   }
   
@@ -25,15 +26,15 @@ body {
     border: none;
     border-radius: 6px;
     width: 80%;
-    font-size: 16px;
+    font-size: 17px;
     padding: 15px 20px;
   }
   
   .search-form-button {
-    background: radial-gradient(circle at 10% 20%, rgb(15, 213, 172) 0%, rgb(34, 182, 198) 100.2%);
+    background: #0092ca;
     padding: 15px 30px;
     border: none;
-    font-size: 16px;
+    font-size: 18px;
     margin-left: 5px;
     border-radius: 6px;
     color: white;
@@ -50,13 +51,13 @@ body {
   
   .weather-app-city {
     margin: 0;
-    font-size: 38px;
+    font-size: 40px;
     line-height: 48px;
   }
   
   .weather-app-details {
-    font-size: 16px;
-    color: rgba(39, 33, 66, 0.7);
+    font-size: 17px;
+    color: rgba(39, 33, 66, 0.8);
     line-height: 24px;
     font-weight: 500;
   }
@@ -93,8 +94,8 @@ body {
   
   .weather-forecast-date {
     text-align: center;
-    color: rgba(39, 33, 66, 0.4);
-    font-size: 16px;
+    color: rgba(39, 33, 66, 0.5);
+    font-size: 17px;
     line-height: 20px;
     margin-bottom: 10px;
   }
@@ -105,7 +106,7 @@ body {
     display: block;
     margin: 0 auto;
   }
-  
+
   .weather-forecast-temperatures {
     text-align: center;
     color: #f65282;
@@ -120,7 +121,7 @@ body {
   
 
   footer {
-    border-top: 1px solid #f9f7fe;
+    border-top: 1px solid #0092ca;
     padding: 30px 0 0 0;
     text-align: center;
     font-size: 14px;
